@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #ecf0f1; /* Cinza claro */
+}
+
+header {
+    background-color: #3498db; 
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1.princi {
+    color: #ffffff; 
+}
+
+.controle-geral {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coluna {
+    flex: 1;
+    margin: 1%;
+    background-color: #ffffff; 
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #3498db; 
+    border-radius: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#saiba-mais {
+    text-align: center;
+}
+
+.video-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+iframe {
+    width: 80%;
+    max-width: 560px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #9b59b6; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: auto;
+    width: 100%;
+}
+
+.logo {
+    max-width: 80px; 
+    height: auto;
+    display: block;
+    margin: 10px; 
+}
+
+.cscs {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #3498DB; 
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
